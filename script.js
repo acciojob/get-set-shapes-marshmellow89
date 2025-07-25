@@ -23,8 +23,8 @@ class Square extends Rectangle {
 	}
 	getPerimeter(){
 		if(width==height){
-			let width==side;
-			let height==side;
+			let width=side;
+			let height=side;
 			return 4*side;
 		}else{
 			throw new error("error in doing");
