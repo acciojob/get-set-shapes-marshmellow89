@@ -2,7 +2,7 @@
 class Rectangle {
 	constructor(width, height){
 		this.width = width;
-		this.heigth = height;
+		this.height = height;
 	}
 	get width(){
      return this.width;
@@ -11,24 +11,18 @@ class Rectangle {
      return this.height;
 	}
 	getArea(){
-		return `${this.width}*${this.height}`
+		return ${this.width}*${this.height};
 	}
 }
 
 class Square extends Rectangle {
-	constructor(width, height, side){
-		super(width,height)
+	constructor(side){
+		super(side, side)
 		this.side = side;
 		
 	}
 	getPerimeter(){
-		if(width==height){
-			let width=side;
-			let height=side;
-			return 4*side;
-		}else{
-			throw new error("error in doing");
-		}
+		return 4*side;
 	}
 }
 
