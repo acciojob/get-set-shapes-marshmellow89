@@ -10,6 +10,10 @@ class Rectangle {
 	get height(){
      return this.height;
 	}
+	set width(newWidth){
+		this.width = newWidth;
+		
+	}
 	getArea(){
 		return this.width*this.height;
 	}
