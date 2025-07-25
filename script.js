@@ -10,7 +10,7 @@ class Rectangle {
 	get height(){
      return this.height;
 	}
-	set width(newWidth){
+	set newWidth(newWidth){
 		this.width = newWidth;
 		
 	}
